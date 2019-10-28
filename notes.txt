@@ -81,3 +81,7 @@ Number(value)
     0, null, undefined, NaN, ""	              false
     любое другое значение	                  true
 
+|| - или
+&& - и
+
+

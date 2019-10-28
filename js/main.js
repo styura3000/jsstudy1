@@ -1,8 +1,4 @@
 "use strict";
-let name = "Ilya";
-
-alert( `hello ${1}` ); // ?
-
-alert( `hello ${"name"}` ); // ?
-
-alert( `hello ${name}` ); // ?
+console.log (`1`);
+console.log (`2`);
+console.log (`3`);

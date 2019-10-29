@@ -95,5 +95,5 @@ i-- декремент -//-
 array.length - длинна массива
 for (;;;) {}; -
 
-
+document.getElementById ()
 

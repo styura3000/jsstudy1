@@ -97,3 +97,34 @@ for (;;;) {}; -
 
 document.getElementById ()
 
+String() - воспринимать потроха как строку
+Number() - воспринимать потроха как цифры
+15%7=1 Остаток при делении
+
+операторы сравнения:
+== равно
+!= неравно
+|| - или
+&& - и
+! инверсия
+
+условные операторы и ветвление
+>
+<
+== - равно
+
+if (boolean){ если да 
+	}
+	else {если нет}
+	else if (boolean){...} еще одно условие к предыдущему
+
+let result='1';
+switch (result) {
+    case 'a': document.write('result = 1'); break;
+    case 'b': document.write('result = 2'); break;    - выполнить если выполнено это условие
+    default: document.write('result неопределен')    - если ниодин не сработал
+}
+
+x>y ? document.write('yes') : document.write('no');
+
+

@@ -91,6 +91,7 @@ DRY   ---   Don`t-Repeat-Yourself
 
 i++ инкремент, постфиксный, а бывает префиксный
 i-- декремент -//-
+x=+2  это то же самое что и  x=x+2
 
 array.length - длинна массива
 for (;;;) {}; -
@@ -127,4 +128,24 @@ switch (result) {
 
 x>y ? document.write('yes') : document.write('no');
 
+Циклы
+for (let i=0; i<10; i++){
+    if (i%3==0 && i!=0) continue;
+    if (i==8) break;
+    document.write(`i=${i}</br>`)
+}
 
+
+while (x<10){
+    document.write(`x=${x}</br>`)
+    x++;
+}
+
+let y=1000;
+do {
+    document.write(`y=${y}</br>`);
+} while (y<100);
+
+prompt('Как тебя зовут, дружек?'); - запрашивает поле
+alert(`Здравствуй ${person}`); - просто вывод который нужно подтвердить
+confirm(`...`) - подтверждение ок/cancel

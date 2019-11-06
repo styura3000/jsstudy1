@@ -149,3 +149,16 @@ do {
 prompt('Как тебя зовут, дружек?'); - запрашивает поле
 alert(`Здравствуй ${person}`); - просто вывод который нужно подтвердить
 confirm(`...`) - подтверждение ок/cancel
+
+массивы
+let arr=[500, "Vasya", 'Pupkin', 1.25, true];
+let arr2=[];
+arr2[1]=45;
+
+функции
+function print(text) {
+    document.write(text);
+}
+print('Hello');
+
+

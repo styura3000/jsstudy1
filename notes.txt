@@ -161,4 +161,4 @@ function print(text) {
 }
 print('Hello');
 
-
+else window.location='http://ya.ru';

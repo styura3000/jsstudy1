@@ -162,3 +162,32 @@ function print(text) {
 print('Hello');
 
 else window.location='http://ya.ru';
+
+регулярные выражения
+    let addrPattern=/[0-9a-z_-]+@[0-9a-z_-]+\.[a-z]{2,5}/i;
+
+    if (name==="" || name===" " || name==="  ") {
+        fail="Вы ввели неверное имя";
+    }
+    else if (addrPattern.test(eMail)===false)
+
+    else if (eMail.split("@").length-1==0) функция разбития выражения на массив по символу @
+
+таймеры
+let id=setInterval(myFunction1, 1000);
+function myFunction1() {
+    counter++;
+    a.innerText="Прошло секунд - " + counter;
+    if (counter===10) clearInterval(id)
+}
+setInterval вызывается бесконечное количество раз через промежуток пока не будет  clearInterval(id)
+
+setTimeout(myFunction1, 1000); - вызывается один раз, с отступом в промежуток заданный
+
+\n перевод строки
+
+математические функции
+Math.PI
+Math.round(Math.random()*100))
+
+

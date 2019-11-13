@@ -218,3 +218,9 @@ text+=`Обрезание - ${string.substring(0,9)}</br>`;
 text+=`3-й символ строки - ${string.charAt(3)}</br>`;
 text+=`С какого по порядку индекса начинается "стро" - ${string.indexOf("стро")}</br>`;
 document.write(text);
+
+jqwery
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ссылка для подключение гугло джиквери
+
+$() это просто общепринятое сокращение jQuery(), для простоты, означает вызвать что то из джиквери библиотеки

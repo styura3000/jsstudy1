@@ -1,8 +1,6 @@
-let message;
-let login='Директор';
+"use strict";
 
-(login === 'Сотрудник')
-                        ? message = 'Привет':(login === 'Директор')
-                        ? message = 'Здравствуйте': (login === '')
-                        ? message = 'Нет логина': message = '';
-document.write(message);
+let a=$('#test').html();
+alert(a);
+
+

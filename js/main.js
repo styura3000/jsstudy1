@@ -1,4 +1,4 @@
 "use strict";
 
-document.writeln(document.URL);
+document.write(document.getElementById("zadanie1").innerHTML);
 document.writeln("</br>");

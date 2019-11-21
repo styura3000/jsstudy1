@@ -1,3 +1,6 @@
 "use strict";
 
-(() => document.write("я другая стрелочная функция"))();
+let name = prompt("Введите ваше имя...");
+
+document.write( `Ваше имя:_${name}_` );
+
